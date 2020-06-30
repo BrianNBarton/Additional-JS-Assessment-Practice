@@ -13,6 +13,13 @@
 
 
 //TODO: Define a function named isOdd that takes in any input and returns true if the input is an odd number, return false for any other situation. You do not need to consider floating-point and decimal numbers.
+var isOdd = function (num) {
+    if (num % 2 === 0) {
+        return false;
+    } else {
+        return true;
+    }
+};
 
 
 //TODO: Define a function named isVowel that takes in a single character and returns true if the character is a vowel. *Not including the letter 'y'
@@ -30,7 +37,9 @@
 
 //TODO: Define a function named `reverseSign` that takes in a number as the first parameter. Reverse the sign of the argument passed in, return false if the argument is not a number. For example, `reverseSign(1)` would return `-1`.
 
-
+function reverseSign(x) {
+    return x * -1
+}
 //TODO: Define a function named `makeUppercase` that takes in a string as the first parameter. Return the argument passed in entirely uppercased, return false if the argument is not a string. For example, `makeUppercase("test")` would return `"TEST"`.
 
 
